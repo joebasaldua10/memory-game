@@ -1,0 +1,332 @@
+body{
+}
+
+.theScore{
+}
+
+
+h2{
+  position: relative;
+  color: blue;
+  font-size: 200px;
+  font-style: fantasy;
+}
+
+.youWon{
+}
+
+#game div {
+  border: 1px solid black;
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  display: inline-flex;
+  perspective: 1000px;
+}
+
+#startImg{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#game{
+  display: flex;
+  margin: 10px;
+  flex-wrap: wrap;
+  perspective: 1000px;
+}
+
+
+#fCards{
+  transform-style: preserve-3d;
+  top:10000px;
+  transition: transform .5s;
+  position: relative;
+
+}
+
+
+#cards{
+  transform-style: preserve-3d;
+  transition: transform .5s;
+  position: relative;
+}
+
+.red{
+ 
+}
+
+.blue{
+ 
+
+}
+
+.green{ 
+
+}
+
+.orange{ 
+
+}
+
+.purple{ 
+
+}
+
+.tRed{ 
+
+}
+
+.tBlue{ 
+
+}
+
+.tGreen{ 
+
+}
+
+.tOrange{ 
+
+}
+
+.tPurple{ 
+
+}
+
+
+h1{
+	text-align: center;
+	color: #000000;
+	text-shadow: 2px 2px #D30000;
+}
+
+#redId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+#blueId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+#greenId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+#purpleId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+#orangeId{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+#tRedId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+#tBlueId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+#tGreenId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+#tPurpleId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+#tOrangeId{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+
+
+#bRedId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+#bBlueId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+
+#bGreenId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+
+#bPurpleId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+
+#bOrangeId{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+#bbRedId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+#bbBlueId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+
+#bbGreenId{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+
+#bbPurpleId{
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+
+#bbOrangeId{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: #000000;
+  backface-visibility: hidden;
+}
+
+
+
+
+.red.flip{
+  transform: rotateY(180deg);
+}
+
+.blue.flip{
+  transform: rotateY(180deg);    
+
+}
+
+.green.flip{  
+  transform: rotateY(180deg); 
+}
+
+.orange.flip{ 
+  transform: rotateY(180deg); 
+}
+
+.purple.flip{  
+  transform: rotateY(180deg); 
+}
+
+.tRed.flip{  
+  transform: rotateY(180deg); 
+}
+
+.tBlue.flip{  
+  transform: rotateY(180deg); 
+}
+
+.tGreen.flip{ 
+  transform: rotateY(180deg);   
+}
+
+.tOrange.flip{  
+  transform: rotateY(180deg); 
+}
+
+.tPurple.flip{  
+  transform: rotateY(180deg); 
+}
+
